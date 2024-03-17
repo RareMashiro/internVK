@@ -1,0 +1,20 @@
+.title {
+    width: 50%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 0.3em;
+}
+
+.control {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2em;
+    padding-top: 0.3em;
+}
+
+
+.bucket {
+    padding-top: 0.3em;
+    width: 16px;
+    height: 20px;
+}
+

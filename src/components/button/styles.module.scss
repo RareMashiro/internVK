@@ -1,0 +1,22 @@
+.small {
+    background-color: white;
+    border: 0.1em solid gray;
+    border-radius: 0.3em;
+    color: black;
+}
+
+.small:hover {
+    border-color: black;
+}
+
+.small:active {
+    border-color: lightGray;
+}
+
+.small:disabled {
+    color: lightgray;
+}
+
+.small:disabled:hover {
+    border-color: gray;
+}

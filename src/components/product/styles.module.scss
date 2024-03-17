@@ -1,0 +1,32 @@
+.section {
+    display: flex;
+}
+
+.section > * + * {
+    margin-left: 1.5em;
+}
+
+
+.logo {
+    width: 250px;
+    height: 250px;
+    flex: 1;
+    border: 0.1em solid lightgray;
+    border-radius: 0.3em;
+}
+
+.description {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.text {
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid lightgray;
+}
+
+.switch {
+    padding-top: 0.5em;
+}

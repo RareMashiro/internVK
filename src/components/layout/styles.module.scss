@@ -1,13 +1,19 @@
 .layout {
+    padding: 1em;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
 }
 
+.layout > * + * {
+    margin-left: 2em;
+}
+
 .goods {
-    border: 2px solid gray;
+    flex: 3;
 }
 
 .cart {
-    border: 2px solid gray;
+    position: relative;
+    flex: 1;
 }

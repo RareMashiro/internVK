@@ -1,0 +1,17 @@
+.placeholder {
+    padding-top: 1em;
+}
+
+.content {
+    position: fixed;
+    display: block;
+}
+
+.cartItems {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.cartItems > * + * {
+    margin-top: 1.5em;
+}
