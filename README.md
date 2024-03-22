@@ -1,8 +1,14 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Тестовое задание (обновлено)
+Для запуска проекта требуется:
+1) установить зависимости в терминале локального сервера simple_api
+2) установить препроцессор sass
+3) установить react-redux и @redux/toolkit
+4) установить расширение CSS Modules
+5) запустить сервер командой npm run start-server
+6) создать билд проекта командой npm run build
+7) запустить проект командой npm run preview,
+либо не создавая билд, запустить командой npm run dev
+# Основные отличия
+1) явное разделение на smart и dump компоненты
+2) оптимизация и улучшение стилей
+3) исправлена ошибка, при которой сумма в корзине не уменьшалась после удаления товара через кнопку delete
