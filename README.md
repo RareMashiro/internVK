@@ -1,7 +1,7 @@
 # Тестовое задание
 !!!Эта версия является оригиналом, приложенным ссылкой в задании на стажировку!!!
 
-<a href="https://github.com/RareMashiro/internVK/tree/project-work">Обновление</a>
+<a href="https://github.com/RareMashiro/internVK/tree/project-work">Доступна обновленная версия</a>
 
 Для запуска проекта требуется:
 1) установить зависимости в терминале локального сервера simple_api
