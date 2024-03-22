@@ -1,20 +1,14 @@
-import { useSelector } from "react-redux";
-import { Counter } from "../counter/component";
-import { selectProductById } from "../../redux/entities/product";
-import { Button } from "../button/component"
+/* eslint-disable react/prop-types */
 import { useDispatch } from "react-redux";
 import { deleteAll } from "../../redux/ui/cart"
+import { Counter } from "../counter/component";
+import { Button } from "../button/component"
 import styles from './styles.module.scss';
 
 
-export const CartItem = ({ productId }) => {
-    const product = useSelector((state) => selectProductById(state, productId));
+export const CartItem = ({ product, productId }) => {
     const dispatch = useDispatch();
-
-    if(!product) {
-        return <>Loading...</>
-    }
-
+    
     return (
         <li>
             <div className={styles.items}>

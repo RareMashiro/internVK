@@ -1,15 +1,8 @@
-import { selectProductById } from '../../redux/entities/product';
+/* eslint-disable react/prop-types */
 import { Counter } from '../counter/component';
 import styles from './styles.module.scss';
-import { useSelector } from "react-redux";
 
-export const Product = ({ productId }) => {
-    const product = useSelector((state) => selectProductById(state, productId));
-    
-    if(!product) {
-        return <>Loading...</>
-    }
-
+export const Product = ({ product }) => {
     return (
         <li>
             <div className={styles.section}>

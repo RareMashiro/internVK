@@ -1,17 +1,10 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
-import { useSelector } from "react-redux";
-import { CartItem } from "../cartItem/component"
-import { selectProductAmount } from "../../redux/ui/cart";
-import { useContext } from "react";
-import { ProductSumContext } from "../../../contexts/productSum";
+// import { CartItem } from "../cartItem/component"
+import { CartItemContainer } from "../cartItem/container";
 import styles from './styles.module.scss';
 
-export const Cart = ({productIds}) => {
-    console.log(productIds);
-    const amount = useSelector(selectProductAmount);
-    const { sum } = useContext(ProductSumContext);
-
+export const Cart = ({ productIds, amount, sum }) => {    
     return (
         <div className={styles.content}>
             {
@@ -21,7 +14,7 @@ export const Cart = ({productIds}) => {
                         {
                             productIds.map(
                                 productId => {
-                                    return <CartItem productId={productId}/>
+                                    return <CartItemContainer productId={productId}/>
                                 }
                             )
                         }

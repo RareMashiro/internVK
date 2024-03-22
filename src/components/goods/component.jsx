@@ -1,16 +1,14 @@
+/* eslint-disable react/jsx-key */
+/* eslint-disable react/prop-types */
 // import { products } from '../../../materials/mock';
-import { useSelector } from 'react-redux';
-import { Product } from '../product/component';
-import { selectProductIds } from '../../redux/entities/product';
+import { ProductContainer } from '../product/container';
 import styles from './styles.module.scss';
 
-export const Goods = () => {
-    const productIds = useSelector(selectProductIds);
-    
+export const Goods = ({ productIds }) => {
     return (
         <ul className={styles.main}>
             {productIds.map((id) => {
-                return <Product productId={id} />
+                return <ProductContainer productId={id}/>
             })}
         </ul>
     )
