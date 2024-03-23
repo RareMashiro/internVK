@@ -16,3 +16,7 @@
 1) явное разделение на smart и dump компоненты
 2) оптимизация и улучшение стилей
 3) исправлена ошибка, при которой сумма в корзине не уменьшалась после удаления товара через кнопку delete
+# Результаты работы
+<img src="https://github.com/RareMashiro/internVK/blob/project-progress/materials/screenshots/1.png"></img>
+<img src="https://github.com/RareMashiro/internVK/blob/project-progress/materials/screenshots/2.png"></img>
+<img src="https://github.com/RareMashiro/internVK/blob/project-progress/materials/screenshots/3.png"></img>
