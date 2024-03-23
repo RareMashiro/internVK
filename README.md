@@ -17,12 +17,15 @@
 2) оптимизация и улучшение стилей
 3) исправлена ошибка, при которой сумма в корзине не уменьшалась после удаления товара через кнопку delete
 # Результаты работы
-1) Запуск приложения:
+
+1. Запуск приложения:
 
 <img src="https://github.com/RareMashiro/internVK/blob/project-progress/materials/screenshots/1.png"></img>
-2) Добавление товаров в корзину:
+
+2. Добавление товаров в корзину:
 
 <img src="https://github.com/RareMashiro/internVK/blob/project-progress/materials/screenshots/2.png"></img>
-3) Удаление товаров из корзины:
+
+3. Удаление товаров из корзины:
 
 <img src="https://github.com/RareMashiro/internVK/blob/project-progress/materials/screenshots/3.png"></img>
