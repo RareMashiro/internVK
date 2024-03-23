@@ -1,15 +1,17 @@
 .layout {
     padding: 1em;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
 }
 
 .layout > * + * {
-    margin-left: 2em;
+    margin-left: 1.75em;
 }
 
 .goods {
+    background-color: white;
+    border-radius: 0.3em;
     flex: 3;
 }
 

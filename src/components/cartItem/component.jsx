@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
+import { ProductSumContext } from "../../../contexts/productSum";
 import { useDispatch } from "react-redux";
+import { useContext } from "react";
 import { deleteAll } from "../../redux/ui/cart"
 import { Counter } from "../counter/component";
 import { Button } from "../button/component"
 import styles from './styles.module.scss';
-import { useContext } from "react";
-import { ProductSumContext } from "../../../contexts/productSum";
 
 
 export const CartItem = ({ product, productId, currAmount }) => {

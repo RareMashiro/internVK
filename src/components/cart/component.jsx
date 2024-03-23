@@ -9,7 +9,7 @@ export const Cart = ({ productIds, amount, sum }) => {
         <div className={styles.content}>
             {
                 productIds?.length ?
-                <div>
+                <div className={styles.cart}>
                     <ul className={styles.cartItems}>
                         {
                             productIds.map(

@@ -1,0 +1,14 @@
+.controlSection {
+    display: flex;
+    align-content: space-between;
+}
+
+.counter {
+    padding-left: 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+.counter > * + * {
+    margin-left: 0.25em;
+}

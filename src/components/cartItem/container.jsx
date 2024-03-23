@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
+import { selectProductAmountById } from "../../redux/ui/cart";
+import { selectProductById } from "../../redux/entities/product";
 import { useSelector } from "react-redux";
 import { CartItem } from "./component"
-import { selectProductById } from "../../redux/entities/product";
-import { selectProductAmountById } from "../../redux/ui/cart";
 
 export const CartItemContainer = ({ productId }) => {
     const product = useSelector((state) => selectProductById(state, productId));
