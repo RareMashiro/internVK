@@ -1,2 +1,1 @@
-This repository includes intern VK workfiles
-<a href="https://github.com/RareMashiro/internVK/tree/project-main">Ветка с заданием</a>
+# Эта ветка пуста. Ветка проекта <a href="https://github.com/RareMashiro/internVK/tree/project-progress">здесь</a>
