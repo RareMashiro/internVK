@@ -15,7 +15,7 @@
 3) исправлена ошибка, при которой сумма в корзине не уменьшалась после удаления товара через кнопку delete
 # Результаты работы
 
-1. Запуск проекта:
+1. Стартовый внешний вид:
 
 <img src="https://github.com/RareMashiro/internVK/blob/project-progress/materials/screenshots/1.png"></img>
 
